@@ -125,21 +125,41 @@
   <!-- Project-wide version specifications (for non-version referencing in child pom's) -->
   <dependencyManagement>
     <dependencies>
-    <dependency>
-      <groupId>com.typesafe.akka</groupId>
-      <artifactId>akka-actor_${scala.version}</artifactId>
-      <version>${typesafe.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.typesafe.akka</groupId>
-      <artifactId>akka-cluster_${scala.version}</artifactId>
-      <version>${typesafe.version}</version>
-    </dependency>
-	<dependency>
-		<groupId>com.jcraft</groupId>
-		<artifactId>jsch</artifactId>
-		<version>${jcraft.version}</version>
-	</dependency>
+      <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-actor_${scala.version}</artifactId>
+        <version>${typesafe.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-cluster_${scala.version}</artifactId>
+        <version>${typesafe.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-contrib_${scala.version}</artifactId>
+        <version>${typesafe.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-kernel_${scala.version}</artifactId>
+        <version>${typesafe.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-slf4j_${scala.version}</artifactId>
+        <version>${typesafe.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-testkit_${scala.version}</artifactId>
+        <version>${typesafe.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.jcraft</groupId>
+        <artifactId>jsch</artifactId>
+        <version>${jcraft.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
